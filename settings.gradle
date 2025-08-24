@@ -1,2 +1,13 @@
 
+pluginManagement {
+    repositories {
+        gradlePluginPortal() 
+        maven { 
+		    name "SPRING_ENTERPRISE"
+		    url "/data/1/wks/spring-enterprise/spring-enterprise/" 
+	    }
+	    mavenCentral()
+    }
+}
+
 rootProject.name = 'demo'
